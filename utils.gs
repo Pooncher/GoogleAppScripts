@@ -10,6 +10,8 @@ function getFirstEmptyRow(range)
 
 function columnToLetter(column)
 {
+  //if upper case
+  //column += 32;
   var temp, letter = '';
   while (column > 0)
   {
@@ -27,5 +29,6 @@ function letterToColumn(letter)
   {
     column += (letter.charCodeAt(i) - 64) * Math.pow(26, length - i - 1);
   }
-  return column;
+                //if upper case
+  return column /*- 32*/;
 }
