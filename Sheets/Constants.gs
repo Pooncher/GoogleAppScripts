@@ -7,8 +7,6 @@ class Constants
   }
 }
 
-// ECMA2015 compatible for static members
-
 Constants.payrollId = "1EEFNUDYR7BVwOwkdLyzFwqvUpiZ-izF3x4f0SOyFH08";
 Constants.payrollMainListName = "Штатка";
 
