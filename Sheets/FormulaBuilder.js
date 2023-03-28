@@ -1,5 +1,3 @@
-//"=IMPORTRANGE(\"https://docs.google.com/spreadsheets/d/1EEFNUDYR7BVwOwkdLyzFwqvUpiZ-izF3x4f0SOyFH08\"; \"Штатка!E1:E1\")"
-//`string text ${expression} string text`
 class FormulaBuilder
 {
   constructor() {
