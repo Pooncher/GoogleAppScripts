@@ -30,5 +30,5 @@ function letterToColumn(letter)
     column += (letter.charCodeAt(i) - 64) * Math.pow(26, length - i - 1);
   }
                 //if upper case
-  return column + 1/*- 32*/;
+  return column/*- 32*/;
 }
