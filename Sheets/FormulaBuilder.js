@@ -23,7 +23,7 @@ class FormulaBuilder
     return this;
   }
 
-  /**/AppendConditionEquality(leftParam, rightParam)
+  AppendConditionEquality(leftParam, rightParam)
   {
     this.formula += leftParam;
     this.formula += "=";
