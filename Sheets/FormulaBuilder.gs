@@ -1,5 +1,4 @@
-class FormulaBuilder
-{
+class FormulaBuilder{
   constructor() {
     this.formula = "";
     this.paramCount = 0;
